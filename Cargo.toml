@@ -1,0 +1,14 @@
+[package]
+name = "noisy_float_issue"
+version = "0.1.0"
+authors = ["Cem Karan <cem.f.karan.civ@mail.mil>"]
+description = "Minimal test code to illustrate an issue in noisy_float/rustc"
+repository = "https://github.com/SergiusIW/collider-rs"
+readme = "README.md"
+keywords = ["bug report"]
+license = "Unlicense"
+edition = "2018"
+
+[dependencies]
+ctor = "0.1.8"
+noisy_float = "0.1.9"
